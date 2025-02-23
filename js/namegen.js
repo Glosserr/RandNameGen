@@ -4,6 +4,8 @@ const cleanName = (name) => {
 };
 
 const NameGenerator = {
+
+    //NOTE; These names where generated with the use of Claude AI, to simplify the process of just manually adding a ton of random names
     firstNames: [
         // Existing names
         "Alexander", "Isabella", "Benjamin", "Charlotte", "Sebastian", 

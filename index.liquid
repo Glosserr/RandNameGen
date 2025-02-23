@@ -3,11 +3,11 @@ layout: layout.liquid
 title: 11ty Boilerplate
 ---
 
-<h1>Random <strong>Name</strong> Generator</h1>
+<h2>Random <strong>Name</strong> Generator</h2>
 
 <!-- Name Generator Section -->
 <div class="name-generator">
-    <h2 x-text="currentName || 'Your Random Name Will Appear Here'"></h2>
+    <h1 x-text="currentName || 'Your Random Name Will Appear Here'"></h1>
     
     <button @click="generateName()">
         Generate Random Name
