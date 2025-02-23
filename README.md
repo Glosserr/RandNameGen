@@ -1,10 +1,14 @@
-# 11ty Boilerplate
+# Random Name Generator
 
-Super basic [11ty](https://www.11ty.dev) starter to get you moving in the right direction and gently introduce some core features like **Passthrough File Copy** for handling images and stylesheets, **layouts**, and templating with [Liquid](https://shopify.github.io/liquid/) and [Markdown](https://www.markdownguide.org).
+A simple web-based random name generator built with vanilla JavaScript that creates diverse names from multiple cultural backgrounds. 
 
-## Quickstart
+## Technologies Used
 
-1. Create a new repository in your own account from this template.
-2. Open the new repository in Codespaces or your own development environment.
-3. Make sure you have Node.js installed (this will be automatic if using Codespaces).
-4. In your terminal type `npx @11ty/eleventy --serve` to build and view the template.
+1. HTML5
+2. CSS3 with custom properties
+3. Vanilla JavaScript
+4. Alpine.js for reactivity
+
+## Name Database
+
+The generator includes over 100 curated names from different cultural backgrounds. All names are stored locally in JavaScript arrays, making the generator fast and requiring no external API calls.
