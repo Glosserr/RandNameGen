@@ -3,5 +3,20 @@ layout: layout.liquid
 title: 11ty Boilerplate
 ---
 
-<h1>Yet Another 11ty <strong>Boilerplate</strong></h1>
-<img alt="pine" src="/images/pine.png" width="50" />
+<h1>Random <strong>Name</strong> Generator</h1>
+
+<!-- Name Generator Section -->
+<div class="name-generator">
+    <h2 x-text="currentName || 'Your Random Name Will Appear Here'"></h2>
+    
+    <button @click="generateName()">
+        Generate Random Name
+    </button>
+
+    <div class="name-options">
+        <label>
+            <input type="checkbox" x-model="showFullName">
+            Include last name
+        </label>
+    </div>
+</div>

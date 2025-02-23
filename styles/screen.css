@@ -1,50 +1,78 @@
-body {
+:root {
+    --forest-green: #2c5530;
+    --light-green: #98b59f;
+  }
+  
+  body {
     font-family: Helvetica, sans-serif;
-    color: #EAE8FF;
-    background: #2D3142;
-    padding: 0 40px;
-    text-align: center;
-}
-
-nav {
-    margin: 40px auto 0 auto;
-    width: 250px;
-    border-radius: 50px;
-    background: #212431;
-}
-
-nav ul {
-    display: flex;
-    justify-content: space-evenly;
-    margin: 0;
-    padding: 0;
-}
-
-nav ul li {
-    list-style-type: none;
-    margin: 0;
-}
-
-nav ul li a {
-    display: inline-block;
+    color: #ffffff; /* Changed text color to white for better contrast */
+    background: #1a1a1a; /* Changed to a darker grey */
     padding: 20px;
-    color: #EAE8FF;
-    text-decoration: none;
-    font-size: 1.2em;
-}
-
-h1 {
-    font-size: 8em;
-    letter-spacing: -2px;
-}
-
-h1 strong {
-    background: rgb(34,193,195);
-    background: linear-gradient(45deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    font-size: 4em;
+    margin: 40px 0;
+    background: linear-gradient(135deg, var(--forest-green) 0%, #ffffff 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-}
-
-img.about {
-    opacity: 0.5;
-}
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 strong {
+    font-weight: 800;
+  }
+  
+  .name-generator {
+    margin: 60px auto;
+  }
+  
+  .name-generator h2 {
+    font-size: 5em;
+    margin: 40px 0;
+    min-height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--forest-green);
+  }
+  
+  button {
+    background-color: var(--forest-green);
+    color: white;
+    border: none;
+    padding: 20px 40px;
+    font-size: 1.5em;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  button:hover {
+    background-color: #1f3d23;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .name-options {
+    margin-top: 30px;
+    font-size: 1.2em;
+  }
+  
+  .name-options label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: var(--forest-green);
+  }
+  
+  input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    accent-color: var(--forest-green);
+  }
